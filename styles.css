@@ -257,3 +257,156 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.section {
+  padding: 32px 0 64px;
+}
+.section-title {
+  font-size: 20px;
+  color: var(--title-color);
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.nav__menu {
+  margin-top: 20px;
+}
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__link {
+  padding: 14px 10px;
+  line-height: 50px;
+  transition: all 0.4s;
+}
+.nav__link:hover {
+  color: var(--title-color);
+  background-color: var(--second-color);
+  border-radius: 25%;
+}
+
+.main-info {
+  position: relative;
+}
+.main-info__container {
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+.main-info__data {
+  gap: 8px;
+  text-align: center;
+}
+
+.main-info__avatar {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 8px;
+  box-shadow: 0 0 8px rgba(13, 12, 12, 0.15);
+  border-radius: 33%;
+}
+
+.main-info__title {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.main-info__pro {
+  font-size: var(--normal-font-size);
+  margin-bottom: 50px;
+  padding-right: 16px;
+}
+.main-info__contacts {
+  font-size: var(--small-font);
+  padding-right: 16px;
+}
+.main-info__social {
+  margin-bottom: 16px;
+  font-size: 16px;
+  padding-right: 16px;
+}
+
+.education__content,
+.skills__content {
+  display: flex;
+  margin-bottom: 20px;
+}
+.education__ball,
+.skills__decor {
+  padding-right: 16px;
+}
+
+.education__rouder,
+.skills__rouder {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  margin-top: 4px;
+}
+
+.education__info,
+.skills__info {
+  gap: 0.5rem;
+}
+
+.education__title {
+  font-size: 16px;
+}
+.education__name {
+  font-size: 14px;
+  color: var(--title-color);
+}
+
+.education__year {
+  font-size: 14px;
+}
+
+.language__name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.language__circle {
+  display: inline-block;
+  background-color: var(--tetx-color);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.skills__line {
+  display: block;
+  width: 2px;
+  height: 100%;
+  background-color: var(--first-color);
+  transform: translate(7px, 0);
+}
+.project__title {
+  color: var(--title-color);
+  font-weight: 600;
+  display: block;
+  margin-top: 23px;
+  font-size: 16px;
+}
+.project__title > span {
+  color: var(--first-color);
+}
+.project__description {
+  margin-top: 8px;
+}
+.about__description {
+  margin-left: 36px;
+}
+.project {
+  margin-left: 36px;
+}
